@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITS-Prog. FrontEnd-CrearFormulario</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Formulario de Inscripción</h1>
+    </header>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+        <label for="direccion">Dirección:</label>
+        <textarea id="direccion" name="direccion" required></textarea>
+        <label for="equipo">Hicha de:</label>
+        <select id="equipo" name="equipo" required>
+            <option value="">Seleccione un Equipo</option>
+            <option value="river">River Plate</option>
+            <option value="platense">Platense</option>
+            <option value="velez">Velez Sarfield</option>
+            <option value="ferro">Ferrocarril Oeste</option>
+            <option value="rosario">Rosario Central</option>
+            <option value="independiente">Independiente</option>
+        </select>
+        <button onclick="ImprimirDatosConsola(event)">Imprimir datos en Consola</button>
+        <button onclick="LimpiarDatos(event)">Limpiar Datos</button>
+    </form>
+    <footer>
+        <p>Creado por Cristian Testaseca</p>
+    </footer>
+
+    <script src="./assets/js/scripts.js"></script>
+
+</body>
+</html>
