@@ -1,0 +1,29 @@
+{
+    "teams": [
+      {
+        "value": "river",
+        "label": "River Plate"
+      },
+      {
+        "value": "boca",
+        "label": "Boca Juniors"
+      },
+      {
+        "value": "platense",
+        "label": "Platense"
+      },
+      {
+        "value": "velez",
+        "label": "Velez Sarfield"
+      },
+      {
+        "value": "ferro",
+        "label": "Ferrocarril Oeste"
+      },
+      {
+        "value": "rosario",
+        "label": "Rosario Central"
+      }
+    ]
+  }
+  

@@ -1,7 +1,7 @@
 /* Estilo general del cuerpo */
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%);
     margin: 0;
     padding: 0;
     display: flex;
@@ -16,7 +16,7 @@ form {
     background: #ffffff;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     width: 100%;
     max-width: 400px;
     transition: transform 0.3s ease;
@@ -36,15 +36,15 @@ form label {
 }
 
 /* Estilo de los inputs, textarea y select */
-form input[type="text"],
+form input,
 form textarea,
 form select {
     width: 90%;
-    padding: 12px 15px;
+    padding: 10px 15px;
     margin-bottom: 20px;
     border: 1px solid #dddddd;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: #f3f3f3;
     font-size: 14px;
     color: #555555;
     transition: border-color 0.3s ease;
@@ -53,15 +53,16 @@ form select {
 form input[type="text"]:focus,
 form textarea:focus,
 form select:focus {
-    border-color: #ff9a9e;
+    border-color: #ff7e5f;
     outline: none;
 }
 
 /* Estilo de los botones */
-form button {
+form button,
+form input[type="submit"] {
     width: 48%;
-    padding: 12px;
-    background-color: #ff9a9e;
+    padding: 5px;
+    background-color: #ff7e5f;
     border: none;
     border-radius: 5px;
     color: #ffffff;
@@ -69,18 +70,19 @@ form button {
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
-form button:hover {
-    background-color: #fad0c4;
+form button:hover,
+form input[type="submit"]:hover {
+    background-color: #feb47b;
 }
 
-
+/* Estilo del footer */
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
+    padding: 1px;
+    background-color: #333333;
     color: white;
     position: fixed;
     width: 100%;
@@ -89,12 +91,12 @@ footer {
 
 /* Estilo del header */
 header {
-    background-color: #ff9a9e;
+    background-color: #ff7e5f;
     color: #ffffff;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
 }
 
